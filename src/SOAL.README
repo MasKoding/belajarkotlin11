@@ -1,0 +1,16 @@
+ Kamu adalah seorang developer .
+  Buatlah sebuah program untuk mengklasifikasi BMI seseorang
+  Rumus BMI : Berat badan / (Tinggi badan*Tinggi badan)
+  Tinggi badan di input cm koversi ke meter  /100
+  Berat badan dalam kg
+  Hasilnya seperti di bawah:
+    -  masukkan Nama: Alex
+    -  masukkan Tinggi badan: 165
+    -  masukkan Berat badan: 120
+    -  hasil BMI: 44
+   Keterangan :
+   >30  => Obese
+   25-30 => Overweight
+   18-25 => Normal
+   <18   => Underweight
+
