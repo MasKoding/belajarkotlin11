@@ -2,12 +2,20 @@
 fun sayHello(name:String){
     println("Hello $name")
 }
-fun sayGoodluck(firstName:String,lastName:String){
+// parameternya wajib di isi
+//fun sayGoodluck(firstName:String,lastName:String){
+//    println("Goodluck $firstName $lastName")
+//}
+// default parameter bisa kita isi di awal sehingga
+// tidak perlu dipanggil
+fun sayGoodluck(firstName:String,lastName:String=""){
     println("Goodluck $firstName $lastName")
 }
+
 
 fun main(){
     sayHello("Steve")
     sayGoodluck("Steve","Job")
+    sayGoodluck("Daud")
 
 }
